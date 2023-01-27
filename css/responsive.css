@@ -1,0 +1,44 @@
+@media screen and (max-width:400px) {
+
+
+    .container{
+
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        margin-bottom: 20px;;
+
+
+    }
+
+    section{
+        
+        overflow-y: scroll;
+        text-align: center;
+
+    }
+    
+
+.titulo{
+
+    font-size: 14px;
+    text-align: center;
+
+}
+
+    .menu__border{
+
+        left: 0;
+        bottom: 97%;
+        width: 10.9em;
+        height: 2.4em;
+        position: absolute;
+        clip-path: url(#menu);
+        will-change: transform;
+        background-color: var(--bgColorMenu);
+        transition: transform var(--timeOut , var(--duration));
+        
+    }
+
+
+}
